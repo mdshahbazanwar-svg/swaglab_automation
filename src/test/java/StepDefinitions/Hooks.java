@@ -26,7 +26,7 @@ public class Hooks extends Base{
 	@After
 	public void afterScenariosFinish()
 	{
-	//	driver.quit();
+		driver.quit();
 	}
 
 }
