@@ -101,7 +101,7 @@ public class SwagAddProductToCart_StepDef extends Base{
 	@Then("Back to Home")
 	public void Back_to_Home() {
 	    // Write code here that turns the phrase above into concrete actions
-		driver.findElement(By.id(prop.getProperty("BackToHo"))).click();
+		driver.findElement(By.id(prop.getProperty("BackToHome"))).click();
 	}
 
 	
